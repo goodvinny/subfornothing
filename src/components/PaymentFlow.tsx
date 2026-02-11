@@ -3,7 +3,6 @@ import { QRCodeSVG } from 'qrcode.react'
 import { PublicKey } from '@solana/web3.js'
 import { createPaymentRequest, pollForPayment } from '@/lib/solanaPay'
 import { Button } from '@/components/ui/button'
-import { Badge } from '@/components/ui/badge'
 import {
     Loader2,
     CheckCircle2,
